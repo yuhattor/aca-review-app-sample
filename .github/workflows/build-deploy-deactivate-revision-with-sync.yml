@@ -13,9 +13,9 @@ permissions:
   # id-token: write
 
 env:
-  CONTAINER_REGISTRY: acrhihorikarevisions.azurecr.io
-  RESOURCE_GROUP_NAME: rg-aca-revision-deploy
-  CONTAINERAPP_NAME: ctapp-aca-revision-deploy2
+  CONTAINER_REGISTRY: acracapreview.azurecr.io
+  RESOURCE_GROUP_NAME: aca-preview-hands-on-rg
+  CONTAINERAPP_NAME: yuhattor-test
 
 jobs:
   add-revision:
